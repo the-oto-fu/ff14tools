@@ -21,6 +21,7 @@ while(count <= 9){
  count++;
 }
 
+//最初に開いているいるマスを設定
  var initOpen = String(getRandomIntInclusive(1, 9));
  var initOpenCircle = document.getElementById(initOpen);
  select(initOpenCircle);
@@ -29,10 +30,12 @@ while(count <= 9){
 
 }
 
+//選択したマスの画像を切り替える
 function select(img){
   img.src = 'img/' + img.id + '.png';
 }
 
+//min～maxを含むランダムな数値を取得
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
