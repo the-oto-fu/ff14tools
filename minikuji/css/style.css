@@ -2,8 +2,22 @@
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 100;
+  left: -100px;
   margin: auto;
   height: 25rem;
+}
+
+#retry{
+  position: absolute;
+  top: 600;
+  right: 0;
+  bottom: 100;
+  left: 0;
+  margin: auto;
+}
+
+.arrowHead{
+  position: relative;
+  left: 50;
 }
